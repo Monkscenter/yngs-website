@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #f5f0e4;
+  color: #232420;
+}
+
+::selection {
+  background-color: #2e6e85;
+  color: #f5f0e4;
+}
+
+/* Visible keyboard focus ring on every interactive element */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #2e6e85;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.text-measure {
+  max-width: 38rem;
+}
+
+/* Fade-in-on-scroll utility, paired with a tiny IntersectionObserver hook */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}

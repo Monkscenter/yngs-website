@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1F3D2B" />
+  <circle cx="600" cy="315" r="90" fill="none" stroke="#5D97A9" stroke-width="2" opacity="0.5" />
+  <circle cx="600" cy="315" r="150" fill="none" stroke="#2F5540" stroke-width="2" />
+  <circle cx="600" cy="315" r="220" fill="none" stroke="#2F5540" stroke-width="2" opacity="0.6" />
+  <text x="600" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#F5F0E4">YNGS</text>
+  <text x="600" y="350" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#E9EFE7">Yash Niteshkumar Ghadiya Springs</text>
+  <text x="600" y="580" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#5D97A9">Northwestern Ontario, Canada</text>
+</svg>
